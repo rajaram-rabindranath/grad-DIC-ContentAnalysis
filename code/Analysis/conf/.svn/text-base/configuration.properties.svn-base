@@ -1,0 +1,4 @@
+data_in_path=/SkyDrive/svn/Twitter/data/headers_twitterData.properties
+data_out_path=/data/headers_twitterData.properties
+input_path=/input
+output_path=/output

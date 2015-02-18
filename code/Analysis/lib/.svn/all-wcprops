@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/HasH_Consultancy/Networking/svn/!svn/ver/43/Twitter/lib
+END
+slf4j-api-1.7.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/HasH_Consultancy/Networking/svn/!svn/ver/34/Twitter/lib/slf4j-api-1.7.5.jar
+END
+hadoop-mapreduce-client-shuffle-2.2.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/HasH_Consultancy/Networking/svn/!svn/ver/34/Twitter/lib/hadoop-mapreduce-client-shuffle-2.2.0.jar
+END
+log4j-1.2.17.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/HasH_Consultancy/Networking/svn/!svn/ver/34/Twitter/lib/log4j-1.2.17.jar
+END
+hadoop-yarn-common-2.2.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/HasH_Consultancy/Networking/svn/!svn/ver/34/Twitter/lib/hadoop-yarn-common-2.2.0.jar
+END
+hadoop-yarn-api-2.2.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/HasH_Consultancy/Networking/svn/!svn/ver/34/Twitter/lib/hadoop-yarn-api-2.2.0.jar
+END
+hadoop-hdfs-2.2.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/HasH_Consultancy/Networking/svn/!svn/ver/34/Twitter/lib/hadoop-hdfs-2.2.0.jar
+END
+hadoop-yarn-client-2.2.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/HasH_Consultancy/Networking/svn/!svn/ver/34/Twitter/lib/hadoop-yarn-client-2.2.0.jar
+END
+hadoop-mapreduce-client-common-2.2.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/HasH_Consultancy/Networking/svn/!svn/ver/34/Twitter/lib/hadoop-mapreduce-client-common-2.2.0.jar
+END
+hadoop-mapreduce-client-core-2.2.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/HasH_Consultancy/Networking/svn/!svn/ver/34/Twitter/lib/hadoop-mapreduce-client-core-2.2.0.jar
+END
+hadoop-common-2.2.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/HasH_Consultancy/Networking/svn/!svn/ver/34/Twitter/lib/hadoop-common-2.2.0.jar
+END
+hadoop-mapreduce-client-jobclient-2.2.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/HasH_Consultancy/Networking/svn/!svn/ver/34/Twitter/lib/hadoop-mapreduce-client-jobclient-2.2.0.jar
+END

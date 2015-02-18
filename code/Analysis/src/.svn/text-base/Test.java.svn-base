@@ -1,0 +1,69 @@
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class Test {
+
+	/**
+	 * @param args
+	 * @throws IOException
+	 */
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+//		String str = "Muhabat_oNe	GoLden_GrOuP	◆•◆PAKISTAN◆•◆	Islamabad	18000	0	en	Fri Feb 15 20:56:03 EST 2013	2	748	0	7121	447229962006036480	*ToP POeTrY*\r\n*JOkEZ*\r\n*INFo*,\r\n*IsLamic*,*Cricket*\r\n*TriXs*,@Xx_FoZia,*Sms ShowinG*,Follow @Barbi_Doll1 \r\nF @Be_NaQaB,03107012585	en	-	-1	-1	false	0	-	-	false	-	-	Sat Mar 22 00:35:06 EDT 2014	-	0	-	0	false	false	-";
+//		String str = "manjeetlall	Manjeet 	Lall	Mumbai	Chennai	19800	0	en	Mon Jan 13 22:31:51 EST 2014	479	75	0	806	447229308478570497	Cricket: Netherlands, Nepal highlight minnows' progress: CHITTAGONG, Bangladesh, March 22, 2014 (AFP) - As cri... http://t.co/WvUXjznOVJ	en	-	-1	-1	false	0	-	-	false	-	-	Sat Mar 22 00:32:30 EDT 2014	-	0	http://t.co/WvUXjznOVJ,http://bit.ly/OGYmC5	1	false	false	-";
+//		String arr[] = str.split("\t");
+//		System.out.println(arr.length);
+//		int index = 0;
+//		for (String word : arr){
+//			System.out.print(index+1 + " ");
+//			System.out.println(word);
+//			index++;
+//		}
+		BufferedReader br = new BufferedReader(new FileReader(
+				"input/clean_test"));
+		String line = null;
+		int count = 1;
+		StringBuffer sb = new StringBuffer();
+		while ((line = br.readLine()) != null) {
+			
+			String[] contents = line.split("\t");
+			while(contents.length != 33){
+				String line2 = br.readLine();
+				if(line2 == null)
+					break;
+				line = line + line2;
+				contents = line.split("\t");
+			}
+			sb.append(line);
+			sb.append("\n");
+			if(contents.length == 33){
+				System.out.print("Size: " + contents.length);
+				System.out.print(" Contents: " + contents[26]);
+				System.out.println(" Line #: " + count);
+			}
+			count++;
+		}
+//		String doc = sb.toString();
+//	//	System.out.println(doc);
+//		count = 1;
+//		while (doc != null) {
+//			String[] contents = doc.split("\t", 34);
+//			System.out.println("Size: " + contents.length);
+////			System.out.print(" Contents: " + contents[26]);
+//			index = 0;
+//			for (String word : contents){
+//				System.out.print(index + " ");
+//				System.out.println(word);
+//				index++;
+//			}
+//			System.out.println(" Line #: " + count);
+//			doc = contents[32].split("\t", 1)[0];
+//			System.out.println(doc);
+//			doc = contents[32].split("\t", 1)[1];
+//			System.out.println(doc);
+//			count++;
+//		}
+	}
+
+}
